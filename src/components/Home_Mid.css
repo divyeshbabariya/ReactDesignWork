@@ -1,0 +1,139 @@
+.namebox {
+  display: flex;
+  align-items: center;
+}
+
+.namebox .name {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.namebox .name h4 {
+  color: #cc9900;
+  margin: 0;
+  padding: 0;
+}
+
+.namebox .name p {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3.movie_title {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.movie_title img {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.slidetitle {
+  padding-left: 50px;
+}
+
+.slider {
+  height: 300px;;
+  width: 100%;
+
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider i{
+  color:#cc9900;
+  font-size:40px;
+  top:50%;  
+  transform:translateY(-50%);
+}
+
+.slider .right{
+  right:0;
+}
+.slider .left{
+  left:0;
+}
+
+.slider .slider_screen {
+  border:1px solid #cc9900;
+ width:400px;
+ height:250px;;
+ border-radius: 25px;
+ background-image: url("../../public/images/girl.jpg");
+ background-size: cover;
+ 
+}
+
+.slidename {
+  width: 100%;
+  height:30px;
+}
+
+.slidename h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.option {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.option ul {
+  display: flex;
+  margin:20px!important;
+}
+
+.option ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  color: #fff;
+}
+
+.option ul li img {
+  height: 15px;
+  margin-right: 10px;
+}
+.cat_select {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat_select p {
+  margin: 0;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cat_select select {
+  border-radius: 15px;
+  background-color: #cc9900;
+  color: #fff;
+  border-style: none;
+}
+
+

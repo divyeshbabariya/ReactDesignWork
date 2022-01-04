@@ -1,0 +1,54 @@
+.line{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.line img{
+    margin-right:15px;
+}
+
+.line h6{
+margin:0;
+padding:0;
+color:#fff;
+font-size:15px;
+line-height:15px;
+}
+.line p{
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-size:13px;
+    line-height:15px;
+}
+.line .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line .right{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line .left .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+}
+
+.line .right i{
+    color:#fff;
+    padding-right:10px;
+    font-size:15px;
+}
+
+p.bottom{
+    color:#fff;
+   margin:0;
+   padding:0;
+}

@@ -1,0 +1,16 @@
+.homeheader{
+    width:100%;
+    background-color:#2A2A2A;
+    border-bottom:1px solid #CC9900;
+}
+
+.textl h2{
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+}
+
+.home{
+    width:100%;
+    background-color:#2A2A2A;
+}

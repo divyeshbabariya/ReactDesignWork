@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid p,h2{
+    color: white;
+}
+.roww{
+    display: flex;
+    justify-content: space-around;
+}
+.upload_txt{
+    background-color: white;
+    color: #707070;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.upload_txt_inr{
+    margin-left: 60px;
+}
+.upload_txt_inr ul li{
+    margin: 10px;
+}
+.form-group{
+    color: white;
+}
+.form-group input{
+    margin-top: 10px;
+  
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.form-group textarea{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 90px;
+    border-radius: 10px;
+}
+.form-group ul{
+    margin-top: 20px;
+}
+.form-group ul li{
+    display: inline-block;
+    margin: 0px 1%;
+    border-radius: 15px;
+    padding: 5px 0px;
+    background-color: #3A3A3A;
+    transition: 0.5s;
+}
+.form-group ul li:hover{
+    background-color: #CC9900;
+    cursor: pointer;
+}
+.form-group ul li a{
+    padding: 0px 35px;
+    color: white;
+}
+.radio-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.radio-btn label{
+    margin-top: 15px;
+}
+.radio-btn input{
+    margin-left: 15px;
+}
+/* .radio-btn input[type='radio']{
+    width: 20px;
+    margin-top: 10px;
+    height: 20px;
+    
+} */
+.check label{
+    margin-top: 20px;
+}
+
+/* .radio-btn input[type='radio']{
+  
+} */
+.check input{
+  margin: 0px 3px 0px 25px;
+  font-size: 30px;
+}
+/* .check input[type='checkbox']{
+ 
+} */
+.btn_grp{
+    float: right;
+}
+.btn_grp button{
+    margin: 0px 30px;
+}
+.colo{
+    width:27%;
+}
+.colo2{
+   width: 60%;
+}
+
+#upload{
+    background-color:#2A2A2A;
+}
+
+#upload{
+    height:100vh;
+}
