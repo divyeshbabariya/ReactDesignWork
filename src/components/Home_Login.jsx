@@ -1,21 +1,25 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 import "./Overlay.css";
 
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Home_Login = () => {
-  function reload()  {
-    window.location.reload(true); 
+  function reload() {
+    window.location.reload(true);
   }
-    return (
-      
-        <Fragment>
-               <div ClassName="modal modal-login" id="myModal">
+  return (
+    <Fragment>
+      <div ClassName="modal modal-login" id="myModal">
         <div ClassName="modal-dialog modal-dialog-centered">
           <div ClassName="modal-content">
             <div ClassName="modal-header text-center" id="headerbox">
               <img src="./images/logo.png" />
-              <button type="button" onClick={reload} ClassName="close" data-dismiss="modal">
+              <button
+                type="button"
+                onClick={reload}
+                ClassName="close"
+                data-dismiss="modal"
+              >
                 <img src="./images/close_modal.png" id="close" />
               </button>
             </div>
@@ -42,7 +46,7 @@ const Home_Login = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="http://13k13.com/api/login/facebook">
                     <i>
                       <img src="./images/icon3.png" />
                     </i>
@@ -50,7 +54,7 @@ const Home_Login = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href={`http://13k13.com/api/login/google`}>
                     <i>
                       <img src="./images/icon4.png" />
                     </i>
@@ -94,9 +98,9 @@ const Home_Login = () => {
             </div>
           </div>
         </div>
-          </div>
-        </Fragment>
-    );
-}
+      </div>
+    </Fragment>
+  );
+};
 
 export default Home_Login;
