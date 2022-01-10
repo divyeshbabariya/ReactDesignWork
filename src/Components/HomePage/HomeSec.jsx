@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./HomeSec.css";
 import Home_TrendVCard from "./Home_TrendVCard";
 import Home_Chennels from "./Home_Chennels";
@@ -9,7 +10,7 @@ const HomeSec = () => {
   return (
     <Fragment>
       <h2 class="text-center m-0 py-4" id="midline">Login to show the world your talents</h2>
-      <div className="container-fluid" id="homesec">
+      <div className="container-fluid pb-5" id="homesec">
       <div class="container-fluid max-1500 boxh py-4" id="mainscreen">
         <div className="row d-flex" id="homescreen">
           <div className="col-lg-3">

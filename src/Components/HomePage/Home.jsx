@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './Home.css';
 import Header from "./Header";
 import HomeSec from "./HomeSec";
-import Overlay from "./Overlay";
-import { BrowserRouter as Router, Routes, Route, Navlink } from 'react-router-dom';
+
+// import { BrowserRouter as Router, Routes, Route, Navlink } from 'react-router-dom';
 
 
 const Home = () => {

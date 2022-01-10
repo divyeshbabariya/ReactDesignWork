@@ -1,7 +1,7 @@
 
 import React, { Fragment } from 'react';
 import './Home_Chennels.css';
-
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Home_Chennels = () => {
     

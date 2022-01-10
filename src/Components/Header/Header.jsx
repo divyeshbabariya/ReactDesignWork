@@ -1,15 +1,17 @@
 import React, { Fragment, useState } from "react";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import "./Header.css";
 
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 
-import ProfileWithBanner from './ProfileWithBanner';
-import Overlay from "./Overlay";
-import HomeSec from "./HomeSec";
-import Dashboard from "./Dashboard";
-import Upload from "./Upload";
-import ProfileNoBanner from "./ProfileNoBanner";
+import ProfileWithBanner from '../ProfileWithBanner/ProfileWithBanner';
+import Overlay from "../Overlay/Overlay";
+import HomeSec from "../HomePage/HomeSec";
+import Dashboard from "../Dashboard/Dashboard";
+import Upload from "../Upload/Upload";
+import ProfileNoBanner from '../ProfileWithNoBanner/ProfileNoBanner'; 
+import { useDispatch, useSelector } from 'react-redux'
 
 
 const Header = () => {
@@ -73,13 +75,7 @@ const Header = () => {
       </div>
 
 
-<Routes>
-  <Route path="/" element={<HomeSec />}></Route>
-  <Route path="/dashboard" element={<Dashboard />}></Route>
-  <Route path="/upload" element={<Upload />}></Route>
-  <Route path="/ProfileWithBanner" element={<ProfileWithBanner />}></Route>
-  <Route path="/profileNoBanner" element={<ProfileNoBanner />}></Route>
-</Routes>
+
 
     </Fragment>
   );

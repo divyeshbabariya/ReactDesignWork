@@ -75,7 +75,7 @@ h3.movie_title {
  width:400px;
  height:250px;;
  border-radius: 25px;
- background-image: url("../../public/images/girl.jpg");
+ background-image: url("../../../public/images/girl.jpg");
  background-size: cover;
  
 }

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./ProfileWithBanner.css";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const ProfileWithBanner = () => {
   const videodata = [

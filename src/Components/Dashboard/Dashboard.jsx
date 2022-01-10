@@ -1,6 +1,6 @@
 import react, { Fragment } from "react";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Header";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Header from "../Header/Header";
 
 const Dashboard = () => {
   const msgdata = [

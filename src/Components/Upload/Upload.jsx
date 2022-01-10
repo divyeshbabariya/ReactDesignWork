@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from './Header'
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
  import "./Upload.css"
  
 
 const Upload =()=>{
-   return(<>
-   
+   return(<>   
        
       <main>
        <div className="upload_sec py-5" id="upload">

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "./Overlay.css";
+import "../Overlay/Overlay.css";
 
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Home_Login = () => {
   function reload() {
@@ -29,7 +29,7 @@ const Home_Login = () => {
                 talents to the world
               </h2>
               <ul>
-                <li>
+                {/* <li>
                   <a href="#">
                     <i>
                       <img src="./images/icon1.png" />
@@ -44,9 +44,9 @@ const Home_Login = () => {
                     </i>
                     <span>Use phone / email / username</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="http://13k13.com/api/login/facebook">
+                  <a href={"http://13k13.com/api/login/facebook"}>
                     <i>
                       <img src="./images/icon3.png" />
                     </i>
@@ -61,7 +61,7 @@ const Home_Login = () => {
                     <span>Continue with Google</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     <i>
                       <img src="./images/icon5.png" />
@@ -84,7 +84,7 @@ const Home_Login = () => {
                     </i>
                     <span>Continue with Instagram</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
