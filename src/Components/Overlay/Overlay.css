@@ -1,0 +1,129 @@
+#overlay1 {
+  width: 100%;
+ min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top:40px;
+  z-index:200;
+
+}
+
+#myModal #headerbox {
+  border-bottom: 1px solid #707070;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myModal #headerbox img {
+  width: 150px;
+  margin: 10px;
+}
+#myModal #headerbox button img {
+  width: 40px !important;
+}
+#myModal #headerbox button {
+  right: 0px;
+  top: -5px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+}
+#myModal {
+  background-color: #323232;
+  width: 500px;
+  border-radius: 30px;
+}
+#myModal .modal-content {
+  background: #323232;
+  border-radius: 30px;
+}
+#myModal .modal-header {
+  border-bottom: 1px solid #707070;
+}
+#myModal .modal-body h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+#myModal .modal-body ul li {
+  display: block;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  list-style: none;
+   /* margin:0 auto; */
+}
+#myModal .modal-body ul li i {
+  display: inline-block;
+  width: 55px;
+  padding: 10px;
+  vertical-align: middle;
+
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+#myModal .modal-body ul li i img {
+  max-width: 25px;
+}
+#myModal .modal-body ul {
+  max-width: 450px;
+  margin: 25px auto!important;
+  margin-left: -5px!important;
+}
+#myModal .modal-body ul li span {
+  display: inline-block;
+  width: calc(100% - 65px);
+  vertical-align: middle;
+  text-align: center;
+}
+#myModal .modal-body ul li a {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+}
+#myModal .modal-header img {
+  margin: auto;
+  max-width: 110px;
+}
+#myModal .modal-header .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 1;
+}
+#myModal .modal-header .close img {
+  max-width: 30px;
+}
+#myModal .modal-footer {
+  border-top: 1px solid #707070;
+  justify-content: flex-start;
+}
+#myModal .modal-footer p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+#myModal .modal-footer p a {
+  text-decoration: underline;
+  color:#fff;
+}
+#myModal .note {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+  line-height: 25px;
+}
+#myModal .note a {
+  text-decoration: underline;
+  
+}
+
+
