@@ -22,5 +22,31 @@ p {
     padding-bottom:30px;
 }
 
+#dashmid .nooutl{
+color:#fff;
+outline: none;
+font-size:18px;
+}
+
+.slider{
+  
+    position:relative;
+}
+.slider img{
+    max-height:250px;
+    transition:03.5s;
+}
+
+#slider i{
+    font-size:30px;
+}
+
+#slider .fa-chevron-left{
+left:0
+}
 
 
+#slider .fa-chevron-right{
+    right:0
+    }
+    

@@ -46,7 +46,11 @@ const Home_Login = () => {
                   </a>
                 </li> */}
                 <li>
-                  <a href={"http://13k13.com/api/login/facebook"}>
+                  <a
+                    href={
+                      "https://5408-2405-201-200c-a0f8-943e-db3a-18c8-83f0.ngrok.io/api/login/facebook"
+                    }
+                  >
                     <i>
                       <img src="./images/icon3.png" />
                     </i>
@@ -54,7 +58,9 @@ const Home_Login = () => {
                   </a>
                 </li>
                 <li>
-                  <a href={`http://13k13.com/api/login/google`}>
+                  <a
+                    href={`https://5408-2405-201-200c-a0f8-943e-db3a-18c8-83f0.ngrok.io/api/login/google`}
+                  >
                     <i>
                       <img src="./images/icon4.png" />
                     </i>

@@ -25,21 +25,26 @@ const Header = () => {
     <Fragment>
       {overl && <Overlay />}
 
-      <div className="container-fluid header px-0">
+      <div className="container-fluid header px-0 overflow-hidden">
         <div className="max-1500">
           <NavLink to="/" className="logo">
             <img src="./images/logo.png" />
           </NavLink>
           <div className="right_menu">
             <div class="search_box">
-              <input type="text" placeholder="Search All" />
+              <input type="text" placeholder="Search All" className="text-light searchbox" />
               <span className="head_select">
                 All <img src="./images/header_select.png" />
               </span>
             </div>
             <ul>
+            <li className="home_btn">
+                <NavLink to="/">
+                  <img src="./images/home.png" style={{width:32}} className="m-0 p-0" />
+                </NavLink>
+              </li>
               <li className="plus_btn">
-                <NavLink to="/dashboard">
+                <NavLink to="/upload">
                   <img src="./images/cinema.svg" />
                 </NavLink>
               </li>
@@ -49,7 +54,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="cinema">
-                <NavLink to="/upload">
+                <NavLink to="/dashboard">
                   <img src="./images/live.svg" />
                 </NavLink>
               </li>

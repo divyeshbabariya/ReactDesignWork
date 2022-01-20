@@ -41,7 +41,7 @@ const Home_TrendVCard = () => {
           
       {trendvdata.map((data) => {
         return (
-          <div className="line mt-3 px-4">
+          <div className="line m-2 px-4">
             <div className="left">
               <img src={data.image} alt="vimage" />
               <div className="names">
@@ -55,7 +55,7 @@ const Home_TrendVCard = () => {
           </div>
         );
       })};
-          <p className="text-center bottom">See All <i class="fas fa-angle-double-right"></i></p>
+          <p className="text-center bottom m-0">See All <i className="fas fa-angle-double-right m-0"></i></p>
     </Fragment>
   );
 };

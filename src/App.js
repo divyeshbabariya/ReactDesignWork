@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/js/dist/carousel";
 import Header from "./Components/Header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProfileWithBanner from "./Components/ProfileWithBanner/ProfileWithBanner";
@@ -13,21 +14,24 @@ import ProfileNoBanner from "./Components/ProfileWithNoBanner/ProfileNoBanner";
 function App() {
   return (
     <Fragment>
-  <div className="content">
-  <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<HomeSec />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
-          <Route path="/upload" element={<Upload />}></Route>
-          <Route
-            path="/ProfileWithBanner"
-            element={<ProfileWithBanner />}
-          ></Route>
-          <Route path="/profileNoBanner" element={<ProfileNoBanner />}></Route>
-        </Routes>
-      </Router>
-  </div>
+      <div className="content">
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<HomeSec />}></Route>
+            <Route path="/dashboard" element={<Dashboard />}></Route>
+            <Route path="/upload" element={<Upload />}></Route>
+            <Route
+              path="/ProfileWithBanner"
+              element={<ProfileWithBanner />}
+            ></Route>
+            <Route
+              path="/profileNoBanner"
+              element={<ProfileNoBanner />}
+            ></Route>
+          </Routes>
+        </Router>
+      </div>
     </Fragment>
   );
 }

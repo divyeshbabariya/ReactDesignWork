@@ -236,7 +236,7 @@ const Dashboard = () => {
                   <img src="./images/ellipse_1.png" />
                 </div>
                 <form>
-                  <textarea placeholder="Make a Post..."></textarea>
+                  <textarea placeholder="Make a Post..." className="nooutl"></textarea>
                 </form>
               </div>
               <ul class="event_list">
@@ -316,7 +316,7 @@ const Dashboard = () => {
                           <img src="./images/ellipse_1.png" />
                         </div>
                         <form>
-                          <textarea placeholder="Write a comment..."></textarea>
+                          <textarea placeholder="Write a comment..." className="text-light no-outline nooutl"></textarea>
                         </form>
                       </div>
                       <div class="comment_icons_list">
@@ -338,7 +338,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 l p-4" id="dashright">
+          <div className="col-lg-3 l px-4" id="dashright">
             <div className="row">
               <div className="col-12 trend">
                 <h3 className="text-center">Trending Feeds</h3>

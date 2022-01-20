@@ -1,16 +1,19 @@
 import React, { Fragment } from "react";
 import "./Home_Mid.css";
+import "../../../node_modules/bootstrap/js/src/carousel";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Slider from "./Slider";
+
+
 
 const Home_Mid = () => {
-
   const slidedata = [
     {
-      image:"./images/girl.jpg"
+      image: "./images/girl.jpg",
     },
     {
-      image: "./images/girl.jpg"
-    }
+      image: "./images/girl.jpg",
+    },
   ];
   return (
     <Fragment>
@@ -34,17 +37,17 @@ const Home_Mid = () => {
           <h4>Song : Lorem Ipsum - Lorem Ipsum.</h4>
         </h3>
       </div>
-      <div className="slider py-3 m-auto">
-        <i class="fas fa-chevron-left left position-absolute"></i>
-        <div className="slider_screen p-4 m-auto">
-          
-</div>
 
-        <i class="fas fa-chevron-right right position-absolute"></i>      
-      </div>
-      <div className="slidename mt-3">
-        <h4 class="cat_type pt-3 mb-3">Category : Movie</h4>
-      </div>
+{/* 
+.........Video Slider............... */}
+      
+<Slider />
+                    
+{/* 
+.........Video Slider....end........... */}
+
+
+
       <div className="option">
         <ul class="cat_view_list mb-5">
           <li>
@@ -60,13 +63,13 @@ const Home_Mid = () => {
             Share
           </li>
         </ul>
-          </div>
-          <div class="cat_select mt-0">
-                        <p>Choose Your Category: </p>
-                        <select className="p-1">
-                            <option>Random</option>
-                        </select>
-                    </div>
+      </div>
+      <div class="cat_select mt-0">
+        <p>Choose Your Category: </p>
+        <select className="p-1">
+          <option>Random</option>
+        </select>
+      </div>
     </Fragment>
   );
 };

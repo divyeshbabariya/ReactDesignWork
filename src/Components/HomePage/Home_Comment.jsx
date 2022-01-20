@@ -39,7 +39,7 @@ const Home_Comment = () => {
       <div className="addcom">
         <img src="./images/comment_img2.png" />
         <form>
-          <textarea placeholder="Write your comment..."></textarea>
+          <textarea placeholder="Write your comment..." className="text-light"></textarea>
         </form>
       </div>
     </Fragment>

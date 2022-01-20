@@ -313,10 +313,13 @@ const ProfileNoBanner = () => {
                 </div>
                 <div className="video_sec">
                   <div className="row" id="videolist">
+              
                     {videodata.map((ele, i) => {
                       return (
-                        <div className="vcard mt-5">
-                          <div className="image">
+
+                        
+                        <div className="vcard overflow-hidden">
+                          <div className="image p-0">
                             <img src={ele.imgdata} alt="" />
                             <div className="name">
                               <p>Video#1</p>
@@ -325,7 +328,7 @@ const ProfileNoBanner = () => {
                               <p>40:01</p>
                             </div>
                           </div>
-                          <div className="vcontent  my-2">
+                          <div className="vcontent my-2">
                             <p className="title">{ele.title}</p>
                             <p className="text text-left">{ele.text}</p>
                             <div className="bottomline d-flex">
@@ -343,17 +346,20 @@ const ProfileNoBanner = () => {
                             </div>
                           </div>
                         </div>
+                        
                       );
                     })}
+                 
                   </div>
                 </div>
-              </div>
-                      </div>
-                      <div className="row my-4">
+                <div className="row my-4">
                           <div className="col load text-center">
                           <i class="fas fa-redo"></i> <p>Load More</p>
                           </div>
                       </div>
+              </div>
+                      </div>
+                     
           </div>
         </div>
       

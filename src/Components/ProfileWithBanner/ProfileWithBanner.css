@@ -57,7 +57,6 @@
 .video_sec img{
     width:100%;
     height:100%;
-
 }
 
 .video_sec .name{
@@ -88,10 +87,74 @@ align-items: center;
 
 
 .vcard{
+ 
     width:260px;
     margin-right:50px;
-    
+    margin-top:30px;
 }
+/* 
+@media only screen and (max-width:1670px){
+    .vcard{
+        margin-right:20px!important;
+    }
+}
+
+@media only screen and (max-width:1620px){
+    .vcard{
+        margin-right:100px!important;
+    }
+}
+
+@media only screen and (max-width:1560px){
+    .vcard{
+        margin-right:50px!important;
+    }
+}
+@media only screen and (max-width:1360px){
+    .vcard{
+        margin-right:30px!important;
+    }
+}
+
+@media only screen and (max-width:1385px){
+    .vcard{
+        margin-right:30px!important;
+    }
+}
+
+@media only screen and (max-width:1285px){
+    .vcard{
+        margin-right:10px!important;
+    }
+}
+@media only screen and (max-width:1200px){
+    .vcard{
+        margin-right:100px!important;
+    }
+}
+
+@media only screen and (max-width:1190px){
+    .vcard{
+        margin-right:100px!important;
+    }
+}
+
+@media only screen and (max-width:1180px){
+    .vcard{
+        margin-right:50px!important;
+    }
+}
+@media only screen and (max-width:990px){
+    .vcard{
+        margin-right:10px!important;
+    }
+}
+
+@media only screen and (max-width:908px){
+    .vcard{
+        margin-right:50px!important;
+    }
+} */
 
 .video_sec p{
     margin:0;
@@ -135,7 +198,7 @@ p.upload{
 
 #videolist{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .propic{
