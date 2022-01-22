@@ -463,6 +463,9 @@ position:relative;
 }
 
 #homesec{
+  min-height:85vh;
+}
 
-  height:85vh;
+.Maiwraper{
+  background-color:#700909
 }

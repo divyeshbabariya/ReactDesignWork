@@ -4,8 +4,8 @@ const Slider = () => {
 const [img, setImg]=useState(0);
 
     const data = [
-        {image: "./images/carousel_img1.png"},
-        {image: "./images/carousel_img2.png"},
+        {image: "./images/new.png"},
+        {image: "./images/slider2.png"},
     ]
     
     const pre = () => { 

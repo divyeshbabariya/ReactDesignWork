@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../ProfileWithBanner/ProfileWithBanner.css";
+
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const ProfileNoBanner = () => {
@@ -138,9 +138,9 @@ const ProfileNoBanner = () => {
         </div>
       </div> */}
 
-      <div className="container-fluid  p-4 prowithbansec">
+      <div className="container-fluid prowithbansec">
         <div className="row">
-          <div className="col-lg-3 p-5 pro-left">
+          <div className="col-lg-3 py-3 pt-4 pro-left">
             <div className="row">
               <div className="col propic">
                 <img
@@ -148,13 +148,13 @@ const ProfileNoBanner = () => {
                   class="dp_img justify-center"
                   style={{ maxWidth: "95px" }}
                 />
-                <h5>John Smith</h5>
-                <p>Art Director</p>
+                <h6 className="text-light m-0 p-0">John Smith</h6>
+                <p className="text-light my-1 p-0 postname">Art Director</p>
               </div>
             </div>
 
             <div className="row">
-              <div className="col-12 my-2 countdata">
+              <div className="col-12 mt-2 countdata">
                 <div className="proffan">
                   <p>28.1k</p>
                   <span>Fans</span>
@@ -188,54 +188,54 @@ const ProfileNoBanner = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="row">
+                <div className="row px-5">
                   <div className="col">
-                    <p class="location_text">
+                    <p className="location_text p-0 m-0" style={{color:"#A8A8A8"}}>
                       <img src="./images/map_locator.png" />
                       New York, USA
                     </p>
                   </div>
                 </div>
-                <div class="profile_block">
+                <div class="profile_block px-5">
                   <h2 class="prof_title">
-                    About John Smith{" "}
+                    About John Smith
                     <a href="#">
                       <img src="./images/dots_icon.png" />
                     </a>
                   </h2>
-                  <p class="pb-3">
+                  <p className="pb-1 ptext" style={{color:"#A8A8A8"}}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in{" "}
+                    Duis aute irure dolor in reprehenderit in
                   </p>
                   <ul class="prof_list m-0 p-0">
                     <li>
                       <h3>Joined 13k13</h3>
-                      <p>September 28th, 2021</p>
+                      <p className="ptext">September 28th, 2021</p>
                     </li>
                     <li>
                       <h3>Category</h3>
-                      <p>Photography</p>
+                      <p className="ptext">Photography</p>
                     </li>
                     <li>
                       <h3>Skills</h3>
-                      <p>Photography</p>
+                      <p className="ptext">Photography</p>
                     </li>
                     <li>
                       <h3>Contact</h3>
-                      <p>johnsmith@yourmail.com</p>
+                      <p className="ptext">johnsmith@yourmail.com</p>
                     </li>
                     <li>
                       <h3>Website</h3>
-                      <p>www.johnsmith.com</p>
+                      <p className="ptext">www.johnsmith.com</p>
                     </li>
                   </ul>
                 </div>
-                <div className="profile_block">
+                <div className="profile_block px-5">
                   <h2 className="prof_title">
-                    Social Networks{" "}
+                    Social Networks
                     <a href="#">
                       <img src="./images/dots_icon.png" />
                     </a>
@@ -243,18 +243,18 @@ const ProfileNoBanner = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row px-4">
               <div className="col">
                 <a href="">
-                  <div className="facebook social my-3">
+                  <div className="facebook social mb-4">
                     <div className="content">
-                      <i class="fab fa-facebook-f"></i>
+                      <i className="fab fa-facebook-f"></i>
                       <p>Facebook</p>
                     </div>
                   </div>
                 </a>
                 <a href="">
-                  <div className="twitter social my-3">
+                  <div className="twitter social my-4">
                     <div className="content">
                       <i class="fab fa-twitter"></i>
                       <p>Twitter</p>
@@ -262,7 +262,7 @@ const ProfileNoBanner = () => {
                   </div>
                 </a>
                 <a href="">
-                  <div className="instagram social my-3">
+                  <div className="instagram social my-4">
                     <div className="content">
                       <i class="fab fa-instagram"></i>
                       <p>Instagram</p>
@@ -275,9 +275,10 @@ const ProfileNoBanner = () => {
 
           <div className="col-lg-9 py-2 px-5">
             <div className="row">
-              
+              <div className="col-12 pro-r">
+               
 
-                <div className="profile_sec py-4">
+                <div className="profile_sec mt-3">
                   <ul class="nav nav-tabs">
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#videos">
@@ -311,16 +312,18 @@ const ProfileNoBanner = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="video_sec">
+                <div className="video_sec container-fluid">
+                  <div className="row">
+                    <div className="col-12 p-3 d-flex justify-content-end align-items-center sorting">
+                     <div className="sortbtn d-flex justify-content-end align-items-center"> <h6 className="text-align-right m-0 mx-2 sortingtext">SORT BY</h6><img src="./images/sort_icon.png" className="sortimg" style={{height:"15px",width:"20px"}} /></div>
+                    </div>
+                  </div>
                   <div className="row" id="videolist">
-              
                     {videodata.map((ele, i) => {
                       return (
-
-                        
-                        <div className="vcard overflow-hidden">
-                          <div className="image p-0">
-                            <img src={ele.imgdata} alt="" />
+                        <div className="vcard col-lg-3 col-md-4 mb-5 col-sm-6">
+                          <div className="image m-0 p-0">
+                            <img src={ele.imgdata} alt="vimage" />
                             <div className="name">
                               <p>Video#1</p>
                             </div>
@@ -328,7 +331,7 @@ const ProfileNoBanner = () => {
                               <p>40:01</p>
                             </div>
                           </div>
-                          <div className="vcontent my-2">
+                          <div className="vcontent  my-2">
                             <p className="title">{ele.title}</p>
                             <p className="text text-left">{ele.text}</p>
                             <div className="bottomline d-flex">
@@ -346,23 +349,20 @@ const ProfileNoBanner = () => {
                             </div>
                           </div>
                         </div>
-                        
                       );
                     })}
-                 
                   </div>
                 </div>
-                <div className="row my-4">
-                          <div className="col load text-center">
-                          <i class="fas fa-redo"></i> <p>Load More</p>
-                          </div>
-                      </div>
               </div>
-                      </div>
-                     
+            </div>
+            <div className="row m-0 p-0">
+              <div className="col load text-center">
+                <i class="fas fa-redo"></i> <p>Load More</p>
+              </div>
+            </div>
           </div>
         </div>
-      
+      </div>
     </Fragment>
   );
 };
