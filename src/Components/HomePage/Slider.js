@@ -16,10 +16,11 @@ const [img, setImg]=useState(0);
       }
     return(
         <Fragment>
-<div className="slider" id="slider">
-<img src={data[img].image} alt="" />
-<i class="fas fa-chevron-left position-absolute" onClick={pre}></i>
-<i class="fas fa-chevron-right position-absolute" onClick={next}></i>
+<div className="slider" id="slider" >
+<i class="fas fa-chevron-left" onClick={pre}></i>
+<img src={data[img].image} alt="slidepic" style={{height:(img==0)? "450px" : "270px"}}/>
+
+<i class="fas fa-chevron-right" onClick={next}></i>
 </div>
         </Fragment>
     )

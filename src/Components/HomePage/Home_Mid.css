@@ -47,9 +47,6 @@ h3.movie_title {
 }
 
 .slider {
-  height: 300px;;
-  width: 100%;
-
   position:relative;
   display: flex;
   justify-content: center;
@@ -58,9 +55,7 @@ h3.movie_title {
 
 .slider i{
   color:#cc9900;
-  font-size:40px;
-  top:50%;  
-  transform:translateY(-50%);
+  font-size:40px; 
 }
 
 .slider .right{
@@ -70,15 +65,7 @@ h3.movie_title {
   left:0;
 }
 
-.slider .slider_screen {
-  border:1px solid #cc9900;
- width:400px;
- height:250px;;
- border-radius: 25px;
- background-image: url("../../../public/images/girl.jpg");
- background-size: cover;
- 
-}
+
 
 .slidename {
   width: 100%;
