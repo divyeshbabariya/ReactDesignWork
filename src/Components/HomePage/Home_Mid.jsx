@@ -32,9 +32,9 @@ const Home_Mid = () => {
         </div>
       </div>
       <div className="slidetitle">
-        <h3 class="movie_title mb-3 mt-3 pl-5 ml-5">
-          <img src="./images/song_icon.png" class="mr-5" />
-          <h4>Song : Lorem Ipsum - Lorem Ipsum.</h4>
+        <h3 class="movie_title mb-3 mt-3 text-center">
+          <img src="./images/song_icon.png" />
+          <h5>Song : Lorem Ipsum - Lorem Ipsum.</h5>
         </h3>
       </div>
 
